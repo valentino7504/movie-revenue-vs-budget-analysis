@@ -34,15 +34,15 @@ The dataset contains budget and worldwide revenue for 6370 movies with varying b
 
 ## 5. Data Exploration, Visualisation and Analysis
 I used *pandas* to read the CSV file using the standard read_csv() function into a DataFrame. I explored the data and discovered that there were a lot of null or zero values for movies which had either not come out yet (as at the time of this project - 4th March, 2023) or had incomplete data. I dropped all of such conflicting rows reducing my dataset to 5954 movies. <br/>
-I then used matplotlib to plot a scatter diagram of the dependent variable - movie revenue against the independent variable - movie budget. This plot is shown below: <br/>
+I then used matplotlib to plot a scatter diagram of the dependent variable - movie revenue against the independent variable - movie budget. This plot is shown below: <br/><br/>
 ![plot](https://user-images.githubusercontent.com/70894222/222928778-82abf625-1594-4b04-a97e-a7d024496909.png)
 
 ## 6. The Model
 Simple linear regression is the simplest machine learning algorithm. Linear Regression is used to find the linear relationship between a target and one or more predictors/features.<br/>
 Simple linear regression is used to check and find the relationship between one target and one feature. It detects statistical relationships that roughly predict the dependent variable (revenue) based on the independent variable (budget). <br/> 
-I used the scikit-learn module to build a linear regression model using the data, generating a line of best fit. I obtained the slope to be 3.19688475. I then plotted this line of best fit on the scatter plot using matplotlib once more. <br/>
+I used the scikit-learn module to build a linear regression model using the data, generating a line of best fit. I obtained the slope to be 3.19688475. I then plotted this line of best fit on the scatter plot using matplotlib once more. <br/><br/>
 ![Screenshot 2023-03-04 222549](https://user-images.githubusercontent.com/70894222/222929381-f46298ab-7da2-4deb-932f-309b0cbca1d0.png)
-<br/>
+<br/><br/>
 ![plot2](https://user-images.githubusercontent.com/70894222/222929319-cf728dcd-1b50-4422-844c-93ec88f2cd0b.png)
 
 ## 7. Evaluating the Model
