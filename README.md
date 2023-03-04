@@ -1,4 +1,4 @@
-# Movie Revenue Prediction
+# Movie Revenue and Budget Relationship
 ### Simple linear regression project to model the relationship between movie budgets and their revenue
 
 ## Contents
