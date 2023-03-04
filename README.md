@@ -12,16 +12,16 @@
 8. Conclusion
 
 ## 1. Introduction
-In this mini project, I built a Linear Regression model to study the linear relationship between a movie's production budget and its worldwide revenue. I used the Python programming language with the relevant modules to analyse, clean and visualise the data
+In this mini project, I built a Linear Regression model to study the linear relationship between a movie's production budget and its worldwide revenue. I used the Python programming language with the relevant modules to analyse, clean and visualise the data.
 
 ## 2. Tools Used
 * *JupyterLab* - A web-based interactive development environment for notebooks, data and code.
 #### Python Modules
-* *pandas* - Provided necessary tools to manipulate the data and clean the data
-* *matplotlib* - Used to create basic plots in Python
-* *scikit-learn* - Provides simple tools for effective and efficient data analysis applications
-* *requests* - Used to fetch content(HTML) from the url
-* *BeautifulSoup* - Provides simple tools for parsing HTML, and extracting the data
+* *pandas* - Provided necessary tools to manipulate the data and clean the data.
+* *matplotlib* - Used to create basic plots in Python.
+* *scikit-learn* - Provides simple tools for effective and efficient data analysis applications.
+* *requests* - Used to fetch content(HTML) from the URL.
+* *BeautifulSoup* - Provides simple tools for parsing HTML, and extracting the data.
 
 ## 3. Problem Statement
 As stated earlier, the question is: <br/>
@@ -49,4 +49,4 @@ I used the scikit-learn module to build a linear regression model using the data
 I also used the scikit-learn module to obtain the goodness of fit score to be 0.5465, in other words, the linear regression model can accurately predict 55% of the revenue values based off the budget values using the regression model.
 
 ## 8. Conclusion
-Based off the goodness of fit score, it is evident that the model is not good enough to deploy on new data. The budget alone cannot be accurately used to predict the revenue.
+Based off the goodness of fit score, it is evident that the model is not good enough to deploy on new data. The budget alone cannot be accurately used to predict the revenue. We would need to consider other factors such as date of release, the production studio and whether or not the movie is a sequel. This would help to give a more accurate relationship and prediction of movie revenue.
